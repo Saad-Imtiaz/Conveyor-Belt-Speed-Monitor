@@ -12,6 +12,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 // Keep track of the number of right wheel pulses
 volatile float right_wheel_pulse_count = 0;
 
+// comment
 // One-second interval for measurements
 int interval = 1000;
 unsigned long previousMillis3 = 0;
